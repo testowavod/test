@@ -62,3 +62,6 @@ podczas odbierania r�wnie� z panelu oraz klienta.
 Prosz� opr�ni� foldery Debug i Release zostawiaj�c jedynie pliki .exe i .dll.
 Prosz� r�wnie� usun�� folder packages oraz ukryty folder .vs.
 Pliki nale�y spakowa� do archiwum ZIP i wys�a� na platformie e-nauczanie.
+
+
+FHJHBDOIJUDHFOLJDFSAHODASIJ
