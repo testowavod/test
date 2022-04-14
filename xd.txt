@@ -64,4 +64,4 @@ Prosz� r�wnie� usun�� folder packages oraz ukryty folder .vs.
 Pliki nale�y spakowa� do archiwum ZIP i wys�a� na platformie e-nauczanie.
 
 
-FHJHBDOIJUDHFOLJDFSAHODASIJ
+FHJHBDOIJUDHFOLJDFSAHODASIJ <- co to ma być
