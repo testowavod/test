@@ -1,0 +1,64 @@
+Programy powinny wykorzystywa� w�asny deweloperski
+serwer za�o�ony wczesniej na https://www.cloudamqp.com/
+Ka�dy proces powinien na pocz�tku si�
+przedstawi�, czyli wypisa� na konsol� kim
+jest, np. "nadawca", "odbiorca 2" itp.
+W celu poprawienia czytelno�ci, aby odr�ni�
+komendu wypisywane przez program a tre��
+odebranych/wys�anych wiadomo�ci, mo�na u�y�
+klasy ConsoleCol (dost�pna na eNauczanie).
+
+1. nadawca				20%
+wys�anie 10 wiadomo�ci
+ze zmieniaj�c� si� tre�ci�
+
+2. odbiorca				15%
+wypisanie na konsol� tre�ci
+wiadomo�ci odebranych od nadawcy
+
+3. nag��wki				10%
+ustawienie w nadawcy i wypisanie
+w odbiorcy dw�ch r�nych nag��wk�w
+w ka�dej wiadomo�ci
+
+4. drugi odbiorca			10%
+konkuruje z pierwszym o wiadomo�ci
+(nadawca wysy�a 10 wiadomo�ci,
+pierwszy odbiera np. 4, drugi 6)
+
+5. potwierdzenia			15%
+odbiorcy potwierdzaj� ka�d� wiadomo��
+po 2 sekundach; nie powinni
+otrzyma� kolejnej wiadomo�ci, p�ki nie
+potwierdz� poprzedniej (najpierw uruchamiamy nadawc�,
+kt�ry wysy�a wszystkie wiadomo�ci,
+p�niej jednego odbiorc�,
+kt�ry pobiera pocz�tkowo tylko jedn� wiadomo��,
+dopiero po kilku sekundach uruchamiamy drugiego odbiorc�,
+kt�ry powinien pobra� kolejn� wiadomo�� z kolejki)
+
+6. odpowiedzi				10%
+drugi odbiorca odpowiada na
+wiadomo�ci; nadawca wypisuje na
+konsol� tre�� odpowiedzi
+
+7. publish/subscribe			20%
+1 wydawca, 2 abonent�w
+wydawca wysy�a 10 wiadomo�ci na
+kana�ach abc.def i abc.xyz (na przemian)
+pierwszy abonent odbiera z kana��w
+zaczynaj�cych si� na abc, drugi odbiera
+z kana��w ko�cz�cych si� na xyz
+(wiadomo�ci z kana�u abc.xyz powinny
+dociera� do obu abonent�w).
+
+Uwagi:
+Po zako�czeniu zadania prosz� przes�a� wszystkie pliki kodu, konfiguracyjne (.cs, .config)
+oraz pliki wszytkich projekt�w i solution (pliki .csproj i .sln).
+Prosz� r�wnie� do��czy� skompilowane pliki: exe oraz dll.
+Podstaw� oceny s� r�wnie� screeny z dzia�aj�cych program�w.
+Podczas wysy�ania wiadomo�ci prosz� o scereen z panelu administratora RabbitMQ,
+podczas odbierania r�wnie� z panelu oraz klienta.
+Prosz� opr�ni� foldery Debug i Release zostawiaj�c jedynie pliki .exe i .dll.
+Prosz� r�wnie� usun�� folder packages oraz ukryty folder .vs.
+Pliki nale�y spakowa� do archiwum ZIP i wys�a� na platformie e-nauczanie.
