@@ -51,7 +51,7 @@ zaczynaj�cych si� na abc, drugi odbiera
 z kana��w ko�cz�cych si� na xyz
 (wiadomo�ci z kana�u abc.xyz powinny
 dociera� do obu abonent�w).
-
+fdsfdsdfsdfssdf
 Uwagi:
 Po zako�czeniu zadania prosz� przes�a� wszystkie pliki kodu, konfiguracyjne (.cs, .config)
 oraz pliki wszytkich projekt�w i solution (pliki .csproj i .sln).
@@ -62,3 +62,5 @@ podczas odbierania r�wnie� z panelu oraz klienta.
 Prosz� opr�ni� foldery Debug i Release zostawiaj�c jedynie pliki .exe i .dll.
 Prosz� r�wnie� usun�� folder packages oraz ukryty folder .vs.
 Pliki nale�y spakowa� do archiwum ZIP i wys�a� na platformie e-nauczanie.
+
+
